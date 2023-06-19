@@ -1,0 +1,958 @@
+#div1{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background-color: rgb(252,252,252);
+  background-image: url('https://static.toiimg.com/thumb/msid-92089121,width-748,height-499,resizemode=4,imgsize-139308/.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 13cm;
+  
+}
+#div2{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 25%;
+  box-shadow: 11px 12px 13px 12px rgb(207,207,207);
+  padding-top: 50px;
+  border-radius: 60px;
+  border: 00.08cm solid black;
+  backdrop-filter: blur(10px);
+ 
+  
+}
+
+
+#inp1{
+
+  border-radius: 2cm;
+  size: 5;
+  height: 1cm;
+  width: 6cm; 
+  margin-top: 1cm;
+}
+
+#inp3{
+  border-radius: 2cm;
+  size: 5;
+  height: 1cm;
+  width: 6cm;  
+  
+}
+button{
+  border-radius: 2cm;
+  size: 5;
+  height: 1cm;
+  width: 6cm;
+  background-color: aquamarine;
+  
+}
+
+#inp5{
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  
+}
+a{
+  color: burlywood;
+}
+
+
+
+
+
+
+
+
+#id1{
+    background-image: url('https://avantikaholidays.in/wp-content/uploads/2020/05/kerala-tourism.jpg');
+    height: 18cm;
+    background-size: cover;
+    background-position: center;
+}
+#id2{
+    font-style: italic;
+    font-weight: 20cm;
+    margin-top: 13cm;
+    margin-left: 13cm;
+    color: black;
+}
+.inpbox ul li{
+list-style: none;
+color: deepskyblue;
+display: inline-flex;
+padding-left: 150px;
+font-weight: 2cm;
+font-style: bold;
+font-size: 0.6cm;
+
+}
+
+
+
+
+
+
+
+#img1{
+    height: 10cm;
+    width: 15cm;
+    border: 0.08cm solid brown;
+    border-radius: 2cm;  
+}
+#img1:hover{
+  height:10.5cm;
+  width: 15.5cm;
+  transform: scale(1);
+
+}
+#he1
+{
+    font-style: italic;
+    color: purple;
+    font-size: 1cm;
+    
+}
+#img2{
+   
+    height: 10cm;
+    width: 15cm;
+    border: 0.08cm solid orangered;
+    border-radius: 2cm;
+}
+#img2:hover{
+  height:10.5cm;
+  width: 15.5cm;
+  transform: scale(1);
+}
+#img7{
+    margin-left: 3.5cm; 
+    width: 28cm;
+
+  }
+  #id4{
+    margin-left: 3.5cm; 
+    background-color: whitesmoke; 
+    width: 28cm;  
+    height: 2cm;
+    font-size: 0.9cm;
+    }
+#img8{
+   
+     height: 10cm;
+     width: 15cm;
+     border: 0.08cm solid blue;
+     border-radius: 2cm;
+ }
+ #img8:hover{
+  height:10.5cm;
+  width: 15.5cm;
+  transform: scale(1);
+}
+ #img9{
+   
+     height: 10cm;
+     width: 15cm;
+     border: 0.08cm solid deeppink;
+     border-radius: 2cm;
+ }
+ #img9:hover{
+  height:10.5cm;
+  width: 15.5cm;
+  transform: scale(1);
+}
+ #img10{
+   
+     height: 10cm;
+     width: 15cm;
+     border: 0.08cm solid violet;
+     border-radius: 2cm;
+ }
+ #img10:hover{
+  height:10.5cm;
+  width: 15.5cm;
+  transform: scale(1);
+}
+ #img11{
+  
+     height: 10cm;
+     width: 15cm;
+     border: 0.08cm solid purple;
+     border-radius: 2cm;
+ }
+ #img11:hover{
+  height:10.5cm;
+  width: 15.5cm;
+  transform: scale(1);
+}
+
+.row1{
+width:100%;
+max-width:1300px;
+display:grid;
+grid-template-columns:repeat(2,1fr);
+grid-gap:50px 30px;
+margin-left: 1cm;
+margin-top: 2cm;
+}
+                
+.row1.left{
+overflow:hidden;
+}
+.row1.left img{
+                width:100%;
+                height:100%;
+                object-fit:cover;
+                }
+                
+                .row1.right{
+                display:flex;
+                align-items:center;
+                }
+                .row1.right.content{
+                padding-left:20px;
+                }
+                
+                .row1.right.content p{
+                font-size:16px;
+                line-height:26px;
+                padding-bottom:15px;
+                }
+                @media(max-width:991px){
+                .row1.right.content{
+                padding-left:0;
+                }
+                }
+                @media(max-width:768px){
+                .row1{
+                width:90px;
+                grid-template-columns:1fr;
+                }
+                }
+
+
+
+
+
+
+
+
+                #img3{
+                    margin-left: 3.5cm; 
+                    width: 28cm;   
+                  }
+
+                  #id3{
+                      margin-left: 3.5cm; 
+                      background-color: whitesmoke; 
+                      width: 28cm;  
+                      height: 2cm;
+                      
+                  }
+                  #img4{
+                    width: 15cm;
+                    height: 10cm;
+                    
+                    border: 0.08cm solid darkorchid;
+                    border-radius: 2cm;
+                  }
+                  #img4:hover{
+                    height:10.5cm;
+                    width: 15.5cm;
+                    transform: scale(1);
+                  }
+                  #img5{
+                    width: 15cm;
+                    height: 10cm;
+                    
+                    border: 0.08cm solid deepskyblue;
+                    border-radius: 2cm;
+                  }
+                  #img5:hover{
+                    height:10.5cm;
+                    width: 15.5cm;
+                    transform: scale(1);
+                  }
+                  #img6{
+                    width: 15cm;
+                    height: 10cm;
+                   
+                    border: 0.08cm solid darkorange;
+                    border-radius: 2cm;
+                  }
+                  #img6:hover{
+                    height:10.5cm;
+                    width: 15.5cm;
+                    transform: scale(1);
+                  }
+              
+                  
+                  
+                    .row2{
+                      width:100%;
+                      max-width:1300px;
+                      display:grid;
+                      grid-template-columns:repeat(2,1fr);
+                      grid-gap:50px 30px;
+                      margin-left: 1cm;
+                      margin-top: 2cm;
+                      }
+                      
+                      .row2.left{
+                      overflow:hidden;
+                      }
+                      .row2.left img{
+                      width:100%;
+                      height:100%;
+                      object-fit:cover;
+                      }
+                      
+                      .row2.right{
+                      display:flex;
+                      align-items:center;
+                      }
+                      .row2.right.content{
+                      padding-left:20px;
+                      }
+                      
+                      .row2.left.right.content p{
+                      font-size:16px;
+                      line-height:26px;
+                      padding-bottom:15px;
+                      }
+                      @media(max-width:991px){
+                      .row2.right.content{
+                      padding-left:0;
+                      }
+                      }
+                      @media(max-width:768px){
+                      .row2{
+                      width:90px;
+                      grid-template-columns:1fr;
+                      }
+                      }
+
+                      
+
+
+
+
+
+
+                      #img12{
+                        margin-left: 3.5cm; 
+                        width: 28cm;  
+                        height: 12cm; 
+                      }
+                      #id5{
+                          margin-left: 3.5cm; 
+                          background-color: whitesmoke; 
+                          width: 28cm;  
+                          height: 2cm;
+                          font-size: 1.5cm;
+                          
+                      }
+                      #img13{
+                        width: 15cm;
+                        height: 10cm;
+                        
+                        border: 0.08cm solid yellow;
+                        border-radius: 2cm;
+                      }
+                      #img13:hover{
+                        height:10.5cm;
+                        width: 15.5cm;
+                        transform: scale(1);
+                      }
+                      #img14{
+                        width: 15cm;
+                        height: 10cm;
+                       
+                        border: 0.08cm solid navy;
+                        border-radius: 2cm;
+                      }
+                      #img14:hover{
+                        height:10.5cm;
+                        width: 15.5cm;
+                        transform: scale(1);
+                      }
+                      #img15{
+                        width: 15cm;
+                        height: 10cm;
+                        
+                        border: 0.08cm solid springgreen;
+                        border-radius: 2cm;
+                      }
+                      #img15:hover{
+                        height:10.5cm;
+                        width: 15.5cm;
+                        transform: scale(1);
+                      }
+                    
+                    
+                        .row3{
+                          width:100%;
+                          max-width:1300px;
+                          display:grid;
+                          grid-template-columns:repeat(2,1fr);
+                          grid-gap:50px 30px;
+                          margin-left: 1cm;
+                          margin-top: 2cm;
+                          }
+                          
+                          .row3.left{
+                          overflow:hidden;
+                          }
+                          .row3.left img{
+                          width:100%;
+                          height:100%;
+                          object-fit:cover;
+                          }
+                          
+                          .row3.right{
+                          display:flex;
+                          align-items:center;
+                          }
+                          .row3.right.content{
+                          padding-left:20px;
+                          }
+                          
+                          .row3.right.content p{
+                          font-size:16px;
+                          line-height:26px;
+                          padding-bottom:15px;
+                          }
+                          @media(max-width:991px){
+                          .row3.right.content{
+                          padding-left:0;
+                          }
+                          }
+                          @media(max-width:768px){
+                          .row3{
+                          width:90px;
+                          grid-template-columns:1fr;
+                          }
+                          }
+
+
+
+
+
+
+
+
+
+                          #img16{
+                            margin-left: 3.5cm; 
+                            width: 28cm;  
+                            height: 12cm; 
+                          }
+                          #id6{
+                              margin-left: 3.5cm; 
+                              background-color: whitesmoke; 
+                              width: 28cm;  
+                              height: 2cm;
+                              font-size: 1.7cm;
+                              
+                          }
+                          #img17{
+                            width: 15cm;
+                            height: 10cm;
+                            
+                            border: 0.08cm solid aqua;
+                            border-radius: 2cm;
+                          
+                          }
+                          #img17:hover{
+                            height:10.5cm;
+                            width: 15.5cm;
+                            transform: scale(1);
+                          }
+                         
+                          #img18{
+                            width: 15cm;
+                            height: 10cm;
+                           
+                            border: 0.08cm solid crimson;
+                            border-radius: 2cm;
+                          }
+                          #img18:hover{
+                            height:10.5cm;
+                            width: 15.5cm;
+                            transform: scale(1);
+                          }
+                          #img19{
+                            width: 15cm;
+                            height: 10cm;
+                            
+                            border: 0.08cm solid mediumvioletred;
+                            border-radius: 2cm;
+                          }
+                          #img19:hover{
+                            height:10.5cm;
+                            width: 15.5cm;
+                            transform: scale(1);
+                          }
+                       
+                        
+                        
+                            .row4{
+                              width:100%;
+                              max-width:1300px;
+                              display:grid;
+                              grid-template-columns:repeat(2,1fr);
+                              grid-gap:50px 30px;
+                              margin-left: 1cm;
+                              margin-top: 2cm;
+                              }
+                              
+                              .row4.left{
+                              overflow:hidden;
+                              }
+                              .row4.left img{
+                              width:100%;
+                              height:100%;
+                              object-fit:cover;
+                              }
+                              
+                              .row4.right{
+                              display:flex;
+                              align-items:center;
+                              }
+                              .row4.right.content{
+                              padding-left:20px;
+                              }
+                              
+                              .row4.right.content p{
+                              font-size:16px;
+line-height:26px;
+padding-bottom:15px;
+}
+@media(max-width:991px){
+.row4.right.content{
+padding-left:0;
+}
+}
+@media(max-width:768px){
+.row4{
+width:90px;
+grid-template-columns:1fr;
+}
+}
+
+
+
+
+#contact{  
+  padding: 90px;
+  text-align: center;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/246/582/347/evening-europe-tower-bridge-london-wallpaper-preview.jpg');
+  background-size: cover;
+  height: 12cm;  
+  
+}
+
+
+#d{
+  border: 0.06cm solid black;
+  border-radius: 0.5cm;
+  height: 1cm;
+}
+#e{
+  border: 0.06cm solid black;
+  border-radius: 0.5cm;
+  height: 1cm;
+}
+#f{
+  border: 0.06cm solid black;
+  border-radius: 0.5cm;
+  height: 1cm;
+}
+#g{
+  border: 0.06cm solid black;
+  border-radius: 0.5cm;
+  height: 1cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+#container{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+
+}
+#dash{
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 106, 255, 0.3);
+  position: sticky;
+  
+ 
+}
+#dash-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* justify-content: flex-end; */
+ margin-left: 1000px;
+ font-size: 25px;
+ 
+
+}
+#dash-inner ul{
+  display: flex;
+  justify-content: center;
+}
+
+
+#dash p{
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: 600;
+  position: relative;
+  top: 5px;
+  color: black;
+}
+
+
+
+#place-cont{
+  height: 700px;
+  width: 65%;
+  
+  margin-top: 70px;
+  margin-left: 240px;
+}
+#place-cont h2{
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 290px;
+}
+#block-cont{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+
+#blocks1{
+  min-height: 250px;
+  min-width: 230px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 60px;
+  background-image: url('https://cdn.bhdw.net/im/kerala-sunset-in-the-forrest-wallpaper-60812_w635.webp');
+  background-size: cover;
+  background-position: center;
+
+  
+}
+#blocks1::after{
+  content: "kerala";
+  font-size: 40px;
+  color: white;
+}
+
+
+
+#blocks2{
+  min-height: 250px;
+  min-width: 230px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 60px;
+  background-image: url('https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2017/05/The-beautiful-mountain-view-of-a-valley-near-Sonamarg-in-Kashmir-OG-SS23052017.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+#blocks2::after{
+  content: "Kashmir";
+  font-size: 40px;
+  color: white;
+}
+#blocks3{
+  min-height: 250px;
+  min-width: 230px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 60px;
+  background-image: url('https://cms.brightsun.co.uk/rw-images/Tour/TourImages/30-03-2019-09-19Royal%20Rajasthan%2007.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+#blocks3::after{
+  content: "Rajasthan";
+  font-size: 40px;
+  color: white;
+}
+#blocks4{
+  min-height: 250px;
+  min-width: 230px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 60px;
+  background-image: url('https://wallpapercave.com/wp/uy4KtV0.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+#blocks4::after{
+  content: "Karnataka";
+  font-size: 40px;
+  color: white;
+}
+#blocks5{
+  min-height: 250px;
+  min-width: 230px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 60px;
+  background-image: url('https://images.pexels.com/photos/14477905/pexels-photo-14477905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  
+}
+#blocks5::after{
+  content: "Ladakh";
+  font-size: 40px;
+  color:white;
+}
+#blocks6{
+  min-height: 250px;
+  min-width: 230px;
+  margin-top: 50px;
+  margin-left: 60px;
+  background-image: url('https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?w=360');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+ 
+}
+#blocks6::after{
+  content: "Maldives";
+  font-size: 40px;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+#dv1{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background-color: rgb(252,252,252);
+ 
+  
+}
+#dv2{
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  width: 30%;
+  background-color: beige;
+ 
+  border-radius: 60px;
+  border: 00.08cm solid black;
+  backdrop-filter: blur(10px);
+ 
+  
+}
+
+
+#ip1{
+
+  border-radius: 2cm;
+  size: 5;
+  height: 1cm;
+  width: 8cm; 
+}
+#ip2{
+  border-radius: 2cm;
+  size: 5;
+  height: 1cm;
+  width: 8cm; 
+}
+#ip3{
+  border-radius: 1cm;
+  size: 5;
+  height: 1cm;
+  width: 8cm;  
+}
+#ip4{
+  border-radius: 1cm;
+  size: 5;
+  height: 1cm;
+  width: 8cm;  
+}
+#ip5{
+  border-radius: 1cm;
+  size: 5;
+  height: 1cm;
+  width: 8cm;  
+}
+#ip6{
+  border-radius: 1cm;
+  size: 5;
+  height: 1cm;
+  width: 8cm;  
+}
+#ip7{
+  border-radius: 1cm;
+  size: 5;
+  height: 3cm;
+  width: 8cm;  
+}
+button{
+  border-radius: 2cm;
+  size: 5;
+  height: 1cm;
+  width: 6cm;
+  background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+
+}
+#di1{
+  height: 100vh;
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+#container1{
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://wallpapercave.com/wp/wp8788367.jpg');
+  background-size: cover;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+form{
+  height: 500px;
+  width: 400px;
+  
+  background-color: rgba(225,225, 225, 0.1);
+  backdrop-filter:blur(10px);
+  box-shadow: 10px 10px 10px -5px rgb(0, 0, 0,0.4),20px 20px 20px -2px rgb(0, 0, 0,0.6);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+form input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255,0.65);
+  outline: none;
+  
+
+}
+form input:hover{
+  outline: none;
+
+}
+#signup{
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+#it5{
+  margin-bottom: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 255, 255,0.8);
+}
+#it5:hover{
+  background-color: rgb(0, 0, 0,0.4);
+  color: white;
+
+}
+#login{
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+a{
+  cursor: pointer;
+}
+a:hover{
+  font-size: 20px;
+  color: rgb(9, 88, 214);
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
